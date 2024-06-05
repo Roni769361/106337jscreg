@@ -180,12 +180,21 @@
             Important Link
           </h3>
           <div class="button" style="text-align: center">
-           <a class="linkbtn btn" href="Form.html" target="_blank"
-   style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border: none; border-radius: 5px; text-decoration: none; text-align: center; transition: background-color 0.3s, transform 0.3s;"
-   onmouseover="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';"
+
+            <a class="linkbtn btn" href="Form.html" target="_blank"
+   style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border: none; border-radius: 5px; text-decoration: none; text-align: center; transition: background-color 0.3s, transform 0.3s; animation: button-hover 3s infinite;"
+   onmouseover="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.1)';"
    onmouseout="this.style.backgroundColor='#007BFF'; this.style.transform='scale(1)';">
    Register Now
 </a>
+
+<style>
+@keyframes button-hover {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+</style>
 
             <a class="linkbtn btn" href="Download_Form.html" target="_blank"
               >Download Copy</a
